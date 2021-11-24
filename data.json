@@ -1,0 +1,94 @@
+{
+    "info": {
+        "name":"Salah Eddine",
+        "title":"Software Developer & Designer",
+        "bio":"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid quaerat, natus excepturi maxime optio reprehenderit blanditiis ipsum iste et aperiam saepe architecto odit iusto. Omnis exercitationem molestias sit aliquam qui?",
+        "links": {
+            "github":"#",
+            "linkedin":"#",
+            "stackoverflow":"#",
+            "codepen":"#",
+            "email":"#"
+        }
+    },
+    "sections":{
+        "Web": {
+            "experience": {
+                "smg": {
+                    "name": "Sanctuary Marketing Group",
+                    "time": "5 months",
+                    "description": "The agency had a big client that needed a few old big websites redone with modern technologies, i had to go through the old code which was 2000s spaghetti php and re create the functionality using laravel."
+                },
+                "scientiae": {
+                    "name": "Scientiae", 
+                    "time": "2 months",
+                    "description": "Built dashboards for the company's using vuejs."
+                }
+            },
+            "skills":{
+                "html":{
+                    "name": "html5",
+                    "years":2
+                },
+                "css":{
+                    "name": "css3",
+                    "years":2
+                },
+                "javascript":{
+                    "name": "javascript",
+                    "years":2
+                }
+            },
+            "projects":{
+                "bms":{
+                    "name":"bmsnetexpo",
+                    "url":"https://www.bmsnetexpo.com/en/",
+                    "code":"unavailable",
+                    "design":"unavailable",
+                    "description":"Comany website to showcase their services and contact them.",
+                    "thumb":"bms1",
+                    "images":["bms1", "bms2", "bms3", "bms4"]
+                },
+                "everysewerneeds": {
+                    "name": "everysewerneeds",
+                    "url":"https://www.everysewerneeds.com/",
+                    "code":"unavailable",
+                    "design":"unavailable",
+                    "description":"E-commerce website using wordpress and woocommerce",
+                    "thumb":"esn1",
+                    "images":["esn1", "esn2", "esn3", "esn4"]
+                },
+                "everyesewerneeds": {
+                    "name": "everysewerneeds",
+                    "url":"https://www.everysewerneeds.com/",
+                    "code":"unavailable",
+                    "design":"unavailable",
+                    "description":"E-commerce website using wordpress and woocommerce",
+                    "thumb":"esn1",
+                    "images":["esn1", "esn2", "esn3", "esn4"]
+                }
+            }
+        },
+        "mobile": {
+            "experience": {
+
+            },
+            "skills": {
+                "html":{
+                    "name": "html5",
+                    "years":2
+                },
+                "css":{
+                    "name": "css3",
+                    "years":2
+                },
+                "javascript":{
+                    "name": "javascript",
+                    "years":2
+                }
+            },
+            "projects": {
+                
+            }
+        }
+}}

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salah's portfolio</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    
+    <div id="wrapper">
+        <div id="above-fold" class="grid-center">
+            <div class="content">
+                <div class="info">
+                    <div class="name" id="dev_name"></div>
+                    <div class="title" id="dev_title"></div>
+                    <div class="bio" id="dev_bio"></div>
+                </div>
+                <div class="links">
+                    <div class="link"><a id="codepen-link" href=""><img src="./icons/codepen.png" alt=""></a></div>
+                    <div class="link"><a id="email-link" href=""><img src="./icons/email.png" alt=""></a></div>
+                    <div class="link"><a id="github-link" href=""><img src="./icons/github.png" alt=""></a></div>
+                    <div class="link"><a id="linkedin-link" href=""><img src="./icons/linkedin.png" alt=""></a></div>
+                    <div class="link"><a id="stackoverflow-link" href=""><img src="./icons/stack-overflow.png" alt=""></a></div>
+                </div>
+            </div>
+        </div>
+        <div id="below-fold">
+            <div class="section-btns" id="section-btns"></div>
+            <div id="section-wrapper">
+                <div class="section">
+                    <div class="skills">
+                        <div class="sub-title">Skills</div>
+                        <div id="skill-icons" class="icons"></div>
+                    </div>
+                    <div class="experience">
+                        <div class="sub-title">Exeprience</div>
+                        <div id="expDiv"></div>
+                    </div>
+                    <div class="projects">
+                        <div class="sub-title">Projects</div>
+                        <div id="project-icons" class="screenshots"></div>
+                    </div>
+                    <div class="carousel">
+                        <div onclick="lastProj()" id="last-btn" class="last-btn flex-center"><img src="./icons/left-chevron.png" alt=""></div>
+                        <div id="project-showcase">
+                            <!-- <div class="project">
+                                <div class="project-name sub-title">Project Name</div>
+                                <div class="project-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. A veniam quas corrupti nulla inventore labore expedita suscipit obcaecati, alias cumque cupiditate totam temporibus, voluptatem id. Quae temporibus dolore nulla velit.</div>
+                                <div class="project-links">
+                                    <a class="link">Website</a>
+                                    <a class="link">Code</a>
+                                    <a class="link">Design</a>
+                                </div>
+                                <div class="project-screenshots">
+                                    <img src="./programmingicons/css3.png" alt="">
+                                    <img src="./programmingicons/css3.png" alt="">
+                                    <img src="./programmingicons/css3.png" alt="">
+                                    <img src="./programmingicons/css3.png" alt="">
+                                </div>
+                            </div> -->
+                        </div>
+                        <div onclick="nextProj()" id="next-btn" class="next-btn flex-center"><img src="./icons/right-chevron.png" alt=""></div>
+                    </div>
+                    <div class="carousel-bottom">
+        
+                    </div>
+                </div>
+            </div>
+            <div class="links">
+                <div class="link"><a id="codepen-link1" href=""><img src="./icons/codepen.png" alt=""></a></div>
+                <div class="link"><a id="email-link1" href=""><img src="./icons/email.png" alt=""></a></div>
+                <div class="link"><a id="github-link1" href=""><img src="./icons/github.png" alt=""></a></div>
+                <div class="link"><a id="linkedin-link1" href=""><img src="./icons/linkedin.png" alt=""></a></div>
+                <div class="link"><a id="stackoverflow-link1" href=""><img src="./icons/stack-overflow.png" alt=""></a></div>
+            </div>
+            <div class="info">
+                <div class="name" id="dev_name1"></div>
+                <div class="title" id="dev_title1"></div>
+            </div>
+        </div>
+        <div id="zoomed-img-bg" class="hidden"></div>
+    </div>
+
+</body>
+<script src="/js/main.js"></script>
+</html>

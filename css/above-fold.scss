@@ -1,0 +1,33 @@
+#above-fold{
+    background: var(--main);
+    height: 100vh;
+    background-image: url("https://source.unsplash.com/random");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    position: relative;
+    &::after{
+        content: "";
+        background-color: rgba(0, 0, 0, 0.301);
+        height: 100%;
+        width: 100%;
+        position: absolute;
+    }
+}
+.content{
+    z-index: 2;
+    text-align: center;
+    color: white;
+    .info{
+        .name{
+            font-size: 48px;
+            font-weight: 800;
+        }
+        .bio{
+            margin: 40px auto;
+            max-width: 800px;
+            font-weight: 600;
+        }
+    }
+}
